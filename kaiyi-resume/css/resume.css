@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: hsl(0, 0%, 87%);
+
+   background-image: url("../image/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+   background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+
+
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: darkslategray;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 6px;
+}
+
+img {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+a {
+  color: blue;
+}
+
+
+
+
+.job {
+  position: relative;
+  display: inline-block;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.job .details {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 350px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.job:hover .details {
+  display: block;
+}
+
+
+
+
+
+
+
+
+.hint {
+  font-size: 10pt;
+  color: rgb(241, 109, 109);
+  margin-left: 6px;
+}
+
+
+
+
+
+
+.download-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 10px 0;
+  background: #004080;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.download-btn:hover {
+  background: #0066cc;
+}
